@@ -3,7 +3,7 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/james-joyce/dubliners</dc:identifier>
 		<dc:date>2015-05-12T00:01:00Z</dc:date>
-		<meta property="dcterms:modified">2015-05-12T00:01:00Z</meta>
+		<meta property="dcterms:modified">2015-05-21T05:43:51Z</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
@@ -31,17 +31,19 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>http://www.gutenberg.org/ebooks/2814</dc:source>
 		<dc:source>https://archive.org/stream/joycedubliners00joycrich</dc:source>
-		<meta property="se:production-notes">Double-em-dashes converted to single em-dashes.</meta>
 		<meta property="se:word-count">68760</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Dubliners</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-joyce_dubliners</meta>
 		<dc:creator id="author">James Joyce</dc:creator>
 		<meta property="file-as" refines="#author">Joyce, James</meta>
+		<meta property="se:name.person.full-name" refines="#author">James Augustine Aloysius Joyce</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Joyce</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79056824.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Walter Frederick Osborne</dc:contributor>
 		<meta property="file-as" refines="#artist">Osborne, Walter Frederick</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Walter_Osborne</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n84058688.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Reed</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Reed, David</meta>
