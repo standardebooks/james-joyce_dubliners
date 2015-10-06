@@ -14,8 +14,7 @@ abbr.name{
 	font-style: italic;
 }
 
-.sign,
-div[epub|type~="z3998:song"]{
+.sign{
 	margin: 1em;
 	text-align: center;
 }
@@ -31,65 +30,76 @@ div[epub|type~="z3998:song"] p{
 	margin: 1em;
 }
 
-*[epub|type~="z3998:poem"] p{
+*[epub|type~="z3998:poem"] p,
+*[epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
-*[epub|type~="z3998:poem"] p + p{
+*[epub|type~="z3998:poem"] p + p,
+*[epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
-*[epub|type~="z3998:poem"] p span{
+*[epub|type~="z3998:poem"] p span,
+*[epub|type~="z3998:song"] p span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-*[epub|type~="z3998:poem"] br{
+*[epub|type~="z3998:poem"] br,
+*[epub|type~="z3998:song"] br{
 	display: none;
+}
+
+p span.i1{
+	text-indent: 0;
 }
 
 #a-little-cloud div[epub|type~="z3998:poem"]{
 	font-style: italic;
 }
 
-div.card{
-	margin: 1em auto;
+.card{
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
 	width: 75%;
 }
 
-div.card h3,
-div.card h4{
+.card h3,
+.card h4{
 	margin: .5em auto;
 }
 
-div.card h4{
+.card h4{
 	padding: .5em 0;
 	border-top: 1px solid;
 	border-bottom: 1px solid;
 }
 
-div.card p,
-div.card + p,
+.card p,
+.card + p,
 .sign + p,
-div[epub|type~="z3998:song"] + p,
-div[epub|type~="z3998:poem"] + p,
-div.announcement + p{
+*[epub|type~="z3998:song"] + p,
+*[epub|type~="z3998:poem"] + p,
+.announcement + p{
 	text-indent: 0;
 }
 
-div.announcement{
+.announcement{
 	margin: 1em;
 	text-align: center;
 }
 
-div.announcement p{
+.announcement p{
 	font-style: italic;
 	text-indent: 0;
 }
 
-div.announcement h3{
+.announcement h3{
 	margin: 0;
 }
 
