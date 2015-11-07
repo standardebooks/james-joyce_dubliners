@@ -14,8 +14,7 @@ abbr.name{
 	text-align: center;
 }
 
-div[epub|type~="z3998:song"] p{
-	display: inline-block;
+*[epub|type~="z3998:song"] p{
 	font-style: italic;
 	text-align: left;
 	text-indent: 0;
@@ -53,7 +52,7 @@ p span.i1{
 	padding-left: 2em;
 }
 
-#a-little-cloud div[epub|type~="z3998:poem"]{
+#a-little-cloud *[epub|type~="z3998:poem"]{
 	font-style: italic;
 }
 
