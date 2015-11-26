@@ -14,36 +14,36 @@ abbr.name{
 	text-align: center;
 }
 
-*[epub|type~="z3998:song"] p{
+[epub|type~="z3998:song"] p{
 	font-style: italic;
 	text-align: left;
 	text-indent: 0;
 }
 
-*[epub|type~="z3998:poem"]{
+[epub|type~="z3998:poem"]{
 	margin: 1em;
 }
 
-*[epub|type~="z3998:poem"] p,
-*[epub|type~="z3998:song"] p{
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
-*[epub|type~="z3998:poem"] p + p,
-*[epub|type~="z3998:song"] p + p{
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
-*[epub|type~="z3998:poem"] p span,
-*[epub|type~="z3998:song"] p span{
+[epub|type~="z3998:poem"] p span,
+[epub|type~="z3998:song"] p span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-*[epub|type~="z3998:poem"] br,
-*[epub|type~="z3998:song"] br{
+[epub|type~="z3998:poem"] br,
+[epub|type~="z3998:song"] br{
 	display: none;
 }
 
@@ -78,8 +78,8 @@ p span.i1{
 .card p,
 .card + p,
 .sign + p,
-*[epub|type~="z3998:song"] + p,
-*[epub|type~="z3998:poem"] + p,
+[epub|type~="z3998:song"] + p,
+[epub|type~="z3998:poem"] + p,
 .announcement + p{
 	text-indent: 0;
 }
