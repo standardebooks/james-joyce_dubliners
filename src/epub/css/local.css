@@ -97,7 +97,3 @@ p span.i1{
 .announcement h3{
 	margin: 0;
 }
-
-h4 + p{
-	text-indent: 0;
-}
