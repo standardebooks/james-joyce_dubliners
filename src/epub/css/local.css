@@ -64,12 +64,12 @@ p span.i1{
 	width: 75%;
 }
 
-.card h3,
-.card h4{
+.card header,
+.card header p{
 	margin: .5em auto;
 }
 
-.card h4{
+.card header p + p{
 	padding: .5em 0;
 	border-top: 1px solid;
 	border-bottom: 1px solid;
@@ -94,6 +94,20 @@ p span.i1{
 	text-indent: 0;
 }
 
-.announcement h3{
+.announcement header{
 	margin: 0;
+}
+
+header{
+	margin: 1em;
+	text-align: center;
+}
+
+header p{
+	font-variant: small-caps;
+	font-size: 1.25em;
+}
+
+header p + p{
+	font-size: 1em;
 }
