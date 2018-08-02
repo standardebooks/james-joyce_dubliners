@@ -1,10 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.name{
-	white-space: nowrap;
-}
-
 .sign abbr{
 	font-style: italic;
 }
@@ -64,7 +60,6 @@ p span.i1{
 	width: 75%;
 }
 
-.card header,
 .card header p{
 	margin: .5em auto;
 }
@@ -99,8 +94,7 @@ p span.i1{
 }
 
 header{
-	margin: 1em;
-	text-align: center;
+	margin-bottom: 1em;
 }
 
 header p{
