@@ -1,12 +1,11 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-.sign abbr{
+#the-sisters blockquote abbr{
 	font-style: italic;
 }
 
-.sign{
-	margin: 1em;
+#the-sisters blockquote{
 	text-align: center;
 }
 
@@ -52,7 +51,7 @@ p span.i1{
 	font-style: italic;
 }
 
-.card{
+#ivy-day-in-the-committee-room blockquote:first-of-type{
 	margin: auto;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -60,36 +59,31 @@ p span.i1{
 	width: 75%;
 }
 
-.card header p{
+#ivy-day-in-the-committee-room blockquote:first-of-type header p{
 	margin: .5em auto;
 }
 
-.card header p + p{
+#ivy-day-in-the-committee-room blockquote:first-of-type header p + p{
 	padding: .5em 0;
 	border-top: 1px solid;
 	border-bottom: 1px solid;
 }
 
-.card p,
-.card + p,
-.sign + p,
-[epub|type~="z3998:song"] + p,
-[epub|type~="z3998:poem"] + p,
-.announcement + p{
+#ivy-day-in-the-committee-room blockquote:first-of-type p{
 	text-indent: 0;
 }
 
-.announcement{
+#ivy-day-in-the-committee-room blockquote:nth-of-type(2){
 	margin: 1em;
 	text-align: center;
 }
 
-.announcement p{
+#ivy-day-in-the-committee-room blockquote:nth-of-type(2) p{
 	font-style: italic;
 	text-indent: 0;
 }
 
-.announcement header{
+#ivy-day-in-the-committee-room blockquote:nth-of-type(2) header{
 	margin: 0;
 }
 
