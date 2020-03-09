@@ -42,8 +42,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2814</dc:source>
 		<dc:source>https://archive.org/details/joycedubliners00joycrich</dc:source>
-		<meta property="se:word-count">68793</meta>
-		<meta property="se:reading-ease.flesch">73.88</meta>
+		<meta property="se:word-count">68794</meta>
+		<meta property="se:reading-ease.flesch">73.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Dubliners</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-joyce_dubliners</meta>
 		<dc:creator id="author">James Joyce</dc:creator>
