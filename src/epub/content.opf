@@ -36,7 +36,7 @@
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">Fifteen short stories about middle-class life in early 20th-century Dublin.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Dubliners&lt;/i&gt; is a collection of picturesque short stories that paint a portrait of life in middle-class Dublin in the early 20th century. Joyce, a Dublin native, was careful to use actual locations and settings in the city, as well as language and slang in use at the time, to make the stories directly relatable to those who lived there.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Dubliners&lt;/i&gt; is a collection of picturesque short stories that paint a portrait of life in middle-class Dublin in the early 20th century. &lt;a href="https://standardebooks.org/ebooks/james-joyce"&gt;Joyce&lt;/a&gt;, a Dublin native, was careful to use actual locations and settings in the city, as well as language and slang in use at the time, to make the stories directly relatable to those who lived there.&lt;/p&gt;
 			&lt;p&gt;The collection had a rocky publication history, with the stories being initially rejected over eighteen times before being provisionally accepted by a publisher—then later rejected again, multiple times. It took Joyce nine years to finally see his stories in print, but not before seeing a printer burn all but one copy of the proofs. Today &lt;i&gt;Dubliners&lt;/i&gt; survives as a rich example of not just literary excellence, but of what everyday life was like for average Dubliners in their day.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
