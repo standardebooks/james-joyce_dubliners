@@ -11,7 +11,7 @@
 
 [epub|type~="z3998:song"] p{
 	font-style: italic;
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -21,7 +21,7 @@
 
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
