@@ -53,8 +53,8 @@ p span.i1{
 
 #ivy-day-in-the-committee-room blockquote:first-of-type{
 	margin: auto;
-	margin-top: 1em;
 	margin-bottom: 1em;
+	margin-top: 1em;
 	text-align: center;
 	width: 75%;
 }
@@ -64,9 +64,9 @@ p span.i1{
 }
 
 #ivy-day-in-the-committee-room blockquote:first-of-type header p + p{
-	padding: .5em 0;
-	border-top: 1px solid;
 	border-bottom: 1px solid;
+	border-top: 1px solid;
+	padding: .5em 0;
 }
 
 #ivy-day-in-the-committee-room blockquote:first-of-type p{
@@ -92,8 +92,8 @@ header{
 }
 
 header p{
-	font-variant: small-caps;
 	font-size: 1.25em;
+	font-variant: small-caps;
 }
 
 header p + p{
