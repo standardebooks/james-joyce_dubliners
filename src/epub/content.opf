@@ -33,6 +33,7 @@
 		<meta property="term" refines="#subject-1">sh2008102451</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">Fifteen short stories about middle-class life in early 20th-century Dublin.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Dubliners&lt;/i&gt; is a collection of picturesque short stories that paint a portrait of life in middle-class Dublin in the early 20th century. &lt;a href="https://standardebooks.org/ebooks/james-joyce"&gt;Joyce&lt;/a&gt;, a Dublin native, was careful to use actual locations and settings in the city, as well as language and slang in use at the time, to make the stories directly relatable to those who lived there.&lt;/p&gt;
