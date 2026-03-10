@@ -2,6 +2,9 @@
 <se-lint-ignore>
 	<file path="the-dead.xhtml">
 		<ignore code="t-003">
+			<line>253</line>
+			<line>261</line>
+			<line>269</line>
 			<reason>Matched text is part of longer dialog.</reason>
 		</ignore>
 	</file>
